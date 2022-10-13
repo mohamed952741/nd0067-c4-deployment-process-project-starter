@@ -1,8 +1,8 @@
 # App Dependencies:
 
-## FrontEnd Dependencies
+## Front-End Dependencies
 
-### Dev Dependencies
+### Developer Dependencies
 ```bash
     "@angular-devkit/architect": "~0.12.3",
     "@angular-devkit/build-angular": "^0.803.24",
@@ -50,9 +50,9 @@
     "zone.js": "~0.9.1"
 ```
 
-## API Dependencies
+## API/Back-End Dependencies
 
-### Dev Dependencies
+### Developer Dependencies
 ```bash
     "@types/bluebird": "^3.5.26",
     "@types/cors": "^2.8.6",

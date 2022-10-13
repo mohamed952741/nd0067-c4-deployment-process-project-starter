@@ -1,12 +1,10 @@
 # Infrastructure description:
 
-In Amazon Web Services:
+## In Amazon Web Services:
 
-1. Create A `Relational Database Service` (RDS) for postgresql database
-2. Create A `Amazon Simple Storage Service` (S3) Bucket for your frontend
-3. Create An `Elastic Beanstalk` (EC2) for your API
+1. Create A `Relational Database Service` (RDS) for A postgresql database
+2. Create A `Amazon Simple Storage Service` (S3) Bucket for your front-end APP
+3. Create An `Elastic Beanstalk` (EC2) to connect RDS and S3 
 
-In CircleCI:
-
-You need to login CircleCI using your Github account to then link it to desirable repo then create in your root directory .circleci folder contain config.yaml and set configuration for Your CircleCI such as orbs/jobs/workflow
-`Then` push your directory to your repo that is connected to CircleCI
+## CircleCI:
+You need to login CircleCI using your Github account to then link it to desired repo then in your root create a directory .circleci containing config.yaml and then set your configuration for your CircleCI such that orbs/jobs/workflow, Then push the directory to your repo that is connected to CircleCI.

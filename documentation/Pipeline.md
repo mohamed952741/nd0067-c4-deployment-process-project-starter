@@ -1,22 +1,22 @@
 # CircleCI:
 
-1. We get core orbs: `node`,`eb cli` and `AWS CLI`
+1. The core orbs: `node`,`eb cli` and `AWS CLI`
 2. Jobs:
    - Build
-    - Start by creating docker image
+    - Start by creating a docker image
     - install node
-    - checkout the entire code
-    - Install all frontend dependencies
-    - Install all backend dependencies
-    - Linting frontend code to make sure code is formatted
-    - Build Frontend
-    - Build Backend
+    - check the entire code
+    - Install all the front-end dependencies
+    - Install all the back-end dependencies
+    - Linting the front-end code to make sure code is formatted correctly
+    - Build the Front-end
+    - Build the Back-end
   - Deploy:
-    - Create docker image
-    - install node/eb/aws-cli
-    - checkout the entire code
-    - Deploy frontend code to S3 bucket
-    - Deploy backend code to Elastic Beanstalk bucket
+    - Create a docker image
+    - install node, eb and aws-cli
+    - check the entire code
+    - Deploy the front-end code to a S3 bucket
+    - Deploy back-end code to Elastic Beanstalk
 
 3. Workflow:
-   Start by building project -> then wait for approval -> when approved start deploying project to AWS!
+   Start by building project, then wait for approval, then when it is approved start deploying project to AWS
